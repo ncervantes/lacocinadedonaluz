@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;	
+	background: #eee;	
+}
+
+h2 {	
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	background: $gold;
+	padding: 20px;
+}
+
+h3 {
+	font-size: 1.0rem;
+}
+
+p {
+	color: $grey;
+}
+
+address {
+	margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+.section-carousel {
+    .carousel-inner{
+	  width:100%;
+	  max-height: 462px !important;
+	  .carousel-caption {
+	     top: 130px;
+	     p {
+	     	color: $white !important;
+	     }
+	  }
+	}
+    @include max-with-600 {
+		display: none;
+	}
+	
+    display: block;  
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+    	width: 50px;
+    	height: 50px;
+    } 
+}

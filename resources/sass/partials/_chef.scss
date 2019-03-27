@@ -1,0 +1,23 @@
+.main-chef {
+	@extend .main-menu;
+	.section-chef {
+		@extend .section-menu;
+		.chef-detail {
+		    @extend .menu-detail;
+		    .chef-photo {
+		        max-width: 600px;
+		        margin: 0 auto;
+			    img {
+			    	width: 100%;
+			    	border-radius: 50%;
+			    	margin-top: 30px;
+			    }
+			}
+			p {
+				margin-top: 30px;
+				text-align: justify;
+			}
+		}
+	}
+	
+}

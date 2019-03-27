@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
+@import 'partials/variables';
+
+/* Media Queries Mixins */
+
+
+@import 'partials/queries';
+
+/* General utilities */
+
+@import 'partials/general';
+
+/* headings */
+
+@import 'partials/header';
+
+/* Section Carousel */
+
+@import 'partials/carousel';
+
+
+/* Section About */
+
+@import 'partials/about';
+
+/* Section Location */
+
+@import 'partials/location';
+
+/* Section Hours */
+
+@import 'partials/hours';
+
+/* Section Socials */
+
+@import 'partials/socials';
+
+/* Section Footer */
+
+@import 'partials/footer';
+
+/* Menu Page */
+
+@import 'partials/menu';
+
+/* chef Page */
+
+@import 'partials/chef';
+
+/* testimonies */
+
+@import 'partials/testimonials';
+
+/* gallery */
+
+@import 'partials/gallery';

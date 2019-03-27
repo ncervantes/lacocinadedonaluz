@@ -1,0 +1,24 @@
+@mixin max-with-600 {
+	@media only screen and (max-width: 600px) {
+		@content;
+	}
+}
+
+@mixin landscape-tablets-up {
+	@media only screen and (min-width: 768px ) {
+		@content;
+	}
+}
+
+@mixin laptops-desktops-up {
+	@media only screen and (min-width: 992px) {
+		@content;
+	}
+}
+
+@mixin max-width-991-98 {
+	@media only screen and (max-width: 991.98px) {
+		@content;
+	}
+}
+

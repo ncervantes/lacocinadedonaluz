@@ -1,0 +1,58 @@
+.menu-body {
+	background-image: url(/img/pexels-photo-262978.jpeg);
+	background-repeat: no-repeat;	
+	background-size: cover;
+	height: 100%;
+}
+
+.main-menu {
+	max-width: 980px;
+	margin: 121px auto;
+	background: $white;
+	opacity: 0.8;	
+	
+	.section-menu {
+		text-align: center;
+		padding: 30px;
+		.menu-detail {
+			border: 3px solid $gold;
+			padding:30px;
+			.menu-block {
+			    font-family: 'Laila', serif;
+			    margin-top: 42px;
+				img {
+		            border-radius: 50%;
+		            margin-bottom:12px;
+		        }
+
+		        h3 {
+		        	font-size: 1.4rem;
+		        	margin-bottom: 20px;		        	
+		        }
+		        p {
+		        	color: $dark-grey;
+		        	line-height: 16px;
+		        }
+		    }
+
+	        h1 {
+	        	background: $gold;
+	        	text-transform: uppercase;
+	        	font-size: 36px;
+	        	padding-top: 5px;
+	        }
+		}
+	}
+}
+
+.footer {
+	padding-top: 0;
+
+	.donaluz-footer {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		p {
+		   color: $white;
+		}
+	}
+}
